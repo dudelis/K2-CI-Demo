@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns="http://schemas.k2.com/Deployment">
+  <package>
+    <variables />
+    <resolveOptions>
+      <defaultOptions>
+        <resolve name="Category" namespace="urn:SourceCode/Category" action="Default" />
+        <resolve name="SmartObject" namespace="urn:SourceCode/SmartObjects" action="Default" />
+        <resolve name="SmartObjectData" namespace="urn:SourceCode/SmartObjects" action="Default" />
+        <resolve name="Service Instance" namespace="urn:SourceCode/SmartObjects/ServiceInstance" action="Default" />
+        <resolve name="Form" namespace="urn:SourceCode/SmartForms" action="Default" />
+        <resolve name="View" namespace="urn:SourceCode/SmartForms" action="Default" />
+        <resolve name="Image" namespace="urn:SourceCode/SmartForms" action="Default" />
+        <resolve name="Process" namespace="urn:SourceCode/Workflow" action="Default" />
+        <resolve name="Workflow" namespace="urn:SourceCode/Workflow" action="Default" />
+        <resolve name="Event" namespace="urn:SourceCode/EventBus" action="Default" />
+        <resolve name="Role" namespace="urn:SourceCode/Identities" action="Default" />
+        <resolve name="Field" namespace="urn:SourceCode/EnvironmentSettings" action="Default" />
+      </defaultOptions>
+      <specificOptions>
+        <resolve name="Administration" namespace="urn:SourceCode/Categories?Administration#Path.%2Froot%2FApps%2FK2%2FSmartStarters%2FExpenseClaim%2F" action="Default" />
+        <resolve name="Apps" namespace="urn:SourceCode/Categories?Apps#Path.%2Froot%2F" action="Default" />
+        <resolve name="Core" namespace="urn:SourceCode/Categories?Core#Path.%2Froot%2FApps%2FK2%2FFramework%2F" action="Default" />
+        <resolve name="ExpenseClaim" namespace="urn:SourceCode/Categories?ExpenseClaim#Path.%2Froot%2FApps%2FK2%2FSmartStarters%2F" action="Default" />
+        <resolve name="Forms" namespace="urn:SourceCode/Categories?Forms#Path.%2Froot%2FApps%2FK2%2FSmartStarters%2FExpenseClaim%2F" action="Default" />
+        <resolve name="Forms" namespace="urn:SourceCode/Categories?Forms#Path.%2Froot%2FApps%2FK2%2FSmartStarters%2FExpenseClaim%2FAdministration%2F" action="Default" />
+        <resolve name="Framework" namespace="urn:SourceCode/Categories?Framework#Path.%2Froot%2FApps%2FK2%2F" action="Default" />
+        <resolve name="K2" namespace="urn:SourceCode/Categories?K2#Path.%2Froot%2FApps%2F" action="Default" />
+        <resolve name="root" namespace="urn:SourceCode/Categories?root#Path.%2F" action="Default" />
+        <resolve name="SmartObjects" namespace="urn:SourceCode/Categories?SmartObjects#Path.%2Froot%2FApps%2FK2%2FFramework%2FCore%2F" action="Default" />
+        <resolve name="SmartObjects" namespace="urn:SourceCode/Categories?SmartObjects#Path.%2Froot%2FApps%2FK2%2FSmartStarters%2FExpenseClaim%2F" action="Default" />
+        <resolve name="SmartObjects" namespace="urn:SourceCode/Categories?SmartObjects#Path.%2Froot%2FApps%2FK2%2FSmartStarters%2FExpenseClaim%2FAdministration%2F" action="Default" />
+        <resolve name="SmartStarters" namespace="urn:SourceCode/Categories?SmartStarters#Path.%2Froot%2FApps%2FK2%2F" action="Default" />
+        <resolve name="Views" namespace="urn:SourceCode/Categories?Views#Path.%2Froot%2FApps%2FK2%2FFramework%2FCore%2F" action="Default" />
+        <resolve name="Views" namespace="urn:SourceCode/Categories?Views#Path.%2Froot%2FApps%2FK2%2FSmartStarters%2FExpenseClaim%2F" action="Default" />
+        <resolve name="Views" namespace="urn:SourceCode/Categories?Views#Path.%2Froot%2FApps%2FK2%2FSmartStarters%2FExpenseClaim%2FAdministration%2F" action="Default" />
+        <resolve name="From Address" namespace="urn:SourceCode/EnvironmentSettings/Fields" action="UseExisting" />
+        <resolve name="Mail Server" namespace="urn:SourceCode/EnvironmentSettings/Fields" action="UseExisting" />
+        <resolve name="SmartForms Runtime" namespace="urn:SourceCode/EnvironmentSettings/Fields" action="UseExisting" />
+        <resolve name="SmartObject Server" namespace="urn:SourceCode/EnvironmentSettings/Fields" action="UseExisting" />
+        <resolve name="Workspace Url" namespace="urn:SourceCode/EnvironmentSettings/Fields" action="UseExisting" />
+        <resolve name="com.K2.App.ExpenseClaim.Form.Administration" namespace="urn:SourceCode/SmartForms/Form" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.Form.AppRegistration" namespace="urn:SourceCode/SmartForms/Form" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.Form.DeleteDraft" namespace="urn:SourceCode/SmartForms/Form" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.Form.Landing" namespace="urn:SourceCode/SmartForms/Form" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.Form.PreviousSubmissions" namespace="urn:SourceCode/SmartForms/Form" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.Form.ReadOnlyComment" namespace="urn:SourceCode/SmartForms/Form" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.Form.ReadOnlyDepartment" namespace="urn:SourceCode/SmartForms/Form" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.Form.ReadOnlyDetails" namespace="urn:SourceCode/SmartForms/Form" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.Form.ReadOnlyExpenseClaimItem" namespace="urn:SourceCode/SmartForms/Form" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.Form.ReportAppWorkflow" namespace="urn:SourceCode/SmartForms/Form" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.Form.ReviewClaimApproval" namespace="urn:SourceCode/SmartForms/Form" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.Form.ReviewClaimQuery" namespace="urn:SourceCode/SmartForms/Form" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.Form.Submit" namespace="urn:SourceCode/SmartForms/Form" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.Form.UpdateDepartment" namespace="urn:SourceCode/SmartForms/Form" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.Form.UpdateExpenseClaimItem" namespace="urn:SourceCode/SmartForms/Form" action="Default" />
+        <resolve name="K2 App Administration Icon" namespace="urn:SourceCode/SmartForms/Image" action="Default" />
+        <resolve name="K2 App Generic New Instance Icon" namespace="urn:SourceCode/SmartForms/Image" action="Default" />
+        <resolve name="K2 App K2Management Icon" namespace="urn:SourceCode/SmartForms/Image" action="Default" />
+        <resolve name="K2 App K2ViewFlow Icon" namespace="urn:SourceCode/SmartForms/Image" action="Default" />
+        <resolve name="K2 App Logo Generic K2 (64x64)" namespace="urn:SourceCode/SmartForms/Image" action="Default" />
+        <resolve name="K2 App Reporting Icon" namespace="urn:SourceCode/SmartForms/Image" action="Default" />
+        <resolve name="K2 Footer" namespace="urn:SourceCode/SmartForms/Image" action="Default" />
+        <resolve name="Presence Icon" namespace="urn:SourceCode/SmartForms/Image" action="Default" />
+        <resolve name="Vertical Divider" namespace="urn:SourceCode/SmartForms/Image" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.EditableListView.Administrator" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.EditableListView.AppSetting" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.EditableListView.Category" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.EditableListView.Currency" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.EditableListView.FinanceReviewer" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ItemView.Comment" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ItemView.CommentReadOnly" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ItemView.CommentSpecific" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ItemView.DeleteExpenseClaim" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ItemView.Department" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ItemView.DepartmentReadOnly" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ItemView.DeploymentConfiguration" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ItemView.ExpenseClaim" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ItemView.ExpenseClaimItem" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ItemView.ExpenseClaimItemReadOnly" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ItemView.ExpenseClaimReadOnly" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ItemView.FormBehaviour" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ItemView.NavigationBar" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ItemView.StatusBar" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ListView.CommentSpecific" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ListView.DeleteExpenseClaimItems" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ListView.Department" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ListView.ExpenseClaimItem" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ListView.ExpenseClaimPreviousSpecific" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ListView.ExpenseClaimSpecific" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.ExpenseClaim.ListView.LandingFormDraftItemsSpecific" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.Framework.Core.ItemView.ActionBarReview" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.Framework.Core.ItemView.ActionBarSubmit" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.Framework.Core.ItemView.DeploymentMessage" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.Framework.Core.ItemView.FormFooter" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.Framework.Core.ItemView.FormHeaderFull" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.Framework.Core.ItemView.FormHeaderThin" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="com.K2.App.Framework.Core.ItemView.WorkflowReport" namespace="urn:SourceCode/SmartForms/View" action="Default" />
+        <resolve name="_com_K2_App_ExpenseClaim_SmartObject_Attachment_com_K2_App_ExpenseClaim_SmartObject_ExpenseClaim" namespace="urn:SourceCode/SmartObjects/Association" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_Comment_com_K2_App_ExpenseClaim_SmartObject_ExpenseClaim" namespace="urn:SourceCode/SmartObjects/Association" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_ExpenseClaim_com_K2_App_ExpenseClaim_SmartObject_Department_1" namespace="urn:SourceCode/SmartObjects/Association" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_ExpenseClaimItem_com_K2_App_ExpenseClaim_SmartObject_Category" namespace="urn:SourceCode/SmartObjects/Association" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_ExpenseClaimItem_com_K2_App_ExpenseClaim_SmartObject_ExpenseClaim" namespace="urn:SourceCode/SmartObjects/Association" action="Default" />
+        <resolve name="Registered_Application_Form_com_K2_App_Framework_Core_SmartObject_RegisteredAppFormType" namespace="urn:SourceCode/SmartObjects/Association" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_Administrator" namespace="urn:SourceCode/SmartObjects/SmartObject" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_AppReference" namespace="urn:SourceCode/SmartObjects/SmartObject" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_AppSetting" namespace="urn:SourceCode/SmartObjects/SmartObject" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_Attachment" namespace="urn:SourceCode/SmartObjects/SmartObject" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_Category" namespace="urn:SourceCode/SmartObjects/SmartObject" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_Comment" namespace="urn:SourceCode/SmartObjects/SmartObject" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_Currency" namespace="urn:SourceCode/SmartObjects/SmartObject" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_Department" namespace="urn:SourceCode/SmartObjects/SmartObject" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_ExpenseClaim" namespace="urn:SourceCode/SmartObjects/SmartObject" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_ExpenseClaimItem" namespace="urn:SourceCode/SmartObjects/SmartObject" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_FinanceReviewer" namespace="urn:SourceCode/SmartObjects/SmartObject" action="Default" />
+        <resolve name="com_K2_App_Framework_Core_SmartObject_RegisteredApp" namespace="urn:SourceCode/SmartObjects/SmartObject" action="Default" />
+        <resolve name="com_K2_App_Framework_Core_SmartObject_RegisteredAppForm" namespace="urn:SourceCode/SmartObjects/SmartObject" action="Default" />
+        <resolve name="com_K2_App_Framework_Core_SmartObject_RegisteredAppFormType" namespace="urn:SourceCode/SmartObjects/SmartObject" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_Administrator Data" namespace="urn:SourceCode/SmartObjects/SmartObjectData?com_K2_App_ExpenseClaim_SmartObject_Administrator" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_AppReference Data" namespace="urn:SourceCode/SmartObjects/SmartObjectData?com_K2_App_ExpenseClaim_SmartObject_AppReference" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_AppSetting Data" namespace="urn:SourceCode/SmartObjects/SmartObjectData?com_K2_App_ExpenseClaim_SmartObject_AppSetting" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_Category Data" namespace="urn:SourceCode/SmartObjects/SmartObjectData?com_K2_App_ExpenseClaim_SmartObject_Category" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_Currency Data" namespace="urn:SourceCode/SmartObjects/SmartObjectData?com_K2_App_ExpenseClaim_SmartObject_Currency" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_Department Data" namespace="urn:SourceCode/SmartObjects/SmartObjectData?com_K2_App_ExpenseClaim_SmartObject_Department" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_ExpenseClaim Data" namespace="urn:SourceCode/SmartObjects/SmartObjectData?com_K2_App_ExpenseClaim_SmartObject_ExpenseClaim" action="Default" />
+        <resolve name="com_K2_App_ExpenseClaim_SmartObject_FinanceReviewer Data" namespace="urn:SourceCode/SmartObjects/SmartObjectData?com_K2_App_ExpenseClaim_SmartObject_FinanceReviewer" action="Default" />
+        <resolve name="com_K2_App_Framework_Core_SmartObject_RegisteredApp Data" namespace="urn:SourceCode/SmartObjects/SmartObjectData?com_K2_App_Framework_Core_SmartObject_RegisteredApp" action="Default" />
+        <resolve name="com_K2_App_Framework_Core_SmartObject_RegisteredAppForm Data" namespace="urn:SourceCode/SmartObjects/SmartObjectData?com_K2_App_Framework_Core_SmartObject_RegisteredAppForm" action="Default" />
+        <resolve name="com_K2_App_Framework_Core_SmartObject_RegisteredAppFormType Data" namespace="urn:SourceCode/SmartObjects/SmartObjectData?com_K2_App_Framework_Core_SmartObject_RegisteredAppFormType" action="Default" />
+        <resolve name="com.K2.App\ExpenseClaim.Workflow.Approval" namespace="urn:SourceCode/Workflows" action="Default" />
+        <resolve name="com.K2.App\Framework.Workflow.Reference" namespace="urn:SourceCode/Workflows" action="Default" />
+      </specificOptions>
+      <referenceOptions>
+        <rebind id="1083" name="Lithium" baseType="Theme" action="Default" targetName="" />
+        <rebind id="1085" name="Form" baseType="Control" action="Default" targetName="" />
+        <rebind id="1087" name="Panel" baseType="Control" action="Default" targetName="" />
+        <rebind id="1089" name="Area" baseType="Control" action="Default" targetName="" />
+        <rebind id="1091" name="AreaItem" baseType="Control" action="Default" targetName="" />
+        <rebind id="5986" name="View" baseType="Control" action="Default" targetName="" />
+        <rebind id="5988" name="Cell" baseType="Control" action="Default" targetName="" />
+        <rebind id="5990" name="ListTable" baseType="Control" action="Default" targetName="" />
+        <rebind id="5992" name="Section" baseType="Control" action="Default" targetName="" />
+        <rebind id="5994" name="Column" baseType="Control" action="Default" targetName="" />
+        <rebind id="5996" name="Row" baseType="Control" action="Default" targetName="" />
+        <rebind id="5998" name="Label" baseType="Control" action="Default" targetName="" />
+        <rebind id="6000" name="DataLabel" baseType="Control" action="Default" targetName="" />
+        <rebind id="6002" name="ToolBarButton" baseType="Control" action="Default" targetName="" />
+        <rebind id="6004" name="ToolbarTable" baseType="Control" action="Default" targetName="" />
+        <rebind id="6006" name="Hyperlink" baseType="Control" action="Default" targetName="" />
+        <rebind id="9885" name="Activity" baseType="Object" action="Default" targetName="" />
+        <rebind id="9889" name="Process" baseType="Object" action="Default" targetName="" />
+        <rebind id="10171" name="Table" baseType="Control" action="Default" targetName="" />
+        <rebind id="10173" name="Button" baseType="Control" action="Default" targetName="" />
+        <rebind id="10181" name="DropDown" baseType="Control" action="Default" targetName="" />
+        <rebind id="10225" name="EventItem" baseType="Object" action="Default" targetName="" />
+        <rebind id="10234" name="K2Field" baseType="K2Field" action="Default" targetName="" />
+        <rebind id="10245" name="DestinationRule" baseType="Object" action="Default" targetName="" />
+        <rebind id="10251" name="SucceedingRule" baseType="Object" action="Default" targetName="" />
+        <rebind id="16928" name="Picture" baseType="Control" action="Default" targetName="" />
+        <rebind id="17819" name="SmartBoxService" baseType="SourceCode.SmartObjects.Services.SmartBox.SBService" action="Default" targetName="" />
+        <rebind id="22420" name="Worklist" baseType="Control" action="Default" targetName="" />
+        <rebind id="27548" name="Picker" baseType="Control" action="Default" targetName="" />
+        <rebind id="27574" name="TextBox" baseType="Control" action="Default" targetName="" />
+        <rebind id="27578" name="Calendar" baseType="Control" action="Default" targetName="" />
+        <rebind id="30527" name="ListDisplay" baseType="Control" action="Default" targetName="" />
+        <rebind id="36400" name="WorkflowTime" baseType="Control" action="Default" targetName="" />
+        <rebind id="36402" name="WorkflowInstancesGrid" baseType="Control" action="Default" targetName="" />
+        <rebind id="36404" name="ActivityInstancesGrid" baseType="Control" action="Default" targetName="" />
+        <rebind id="36406" name="UserPerformance" baseType="Control" action="Default" targetName="" />
+        <rebind id="44737" name="TextArea" baseType="Control" action="Default" targetName="" />
+        <rebind id="50850" name="FilePostBack" baseType="Control" action="Default" targetName="" />
+        <rebind id="57337" name="SmartObjectEventItem" baseType="EventItem" action="Default" targetName="" />
+        <rebind id="57350" name="ArtifactFieldPart" baseType="FieldPart" action="Default" targetName="" />
+        <rebind id="57351" name="FieldPart" baseType="Object" action="Default" targetName="" />
+        <rebind id="57365" name="Inputs" baseType="K2Field" action="Default" targetName="" />
+        <rebind id="57370" name="Returns" baseType="K2Field" action="Default" targetName="" />
+        <rebind id="57419" name="SmartObjectFieldPart" baseType="FieldPart" action="Default" targetName="" />
+        <rebind id="57686" name="PersistableObjectDictionaryEntry" baseType="K2Field" action="Default" targetName="" />
+        <rebind id="67444" name="UMUser" baseType="SmartObject" action="Default" targetName="" />
+      </referenceOptions>
+    </resolveOptions>
+  </package>
+</configuration>
